@@ -3,10 +3,12 @@ body {
   place-items: center;
   background: #010004e3;
 }
+
 html,
 body {
   height: 100%;
 }
+
 .loader {
   position: relative;
   width: 150px;
@@ -22,8 +24,8 @@ body {
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3) inset;
 }
 .loader:after {
-  box-shadow: 0 2px 0 #1100ff inset;
-  animation: rotate 2s linear infinite;
+  box-shadow: 0 3px 0 #1100ff inset;
+  animation: rotate 1.5s linear infinite;
 }
 
 @keyframes rotate {
